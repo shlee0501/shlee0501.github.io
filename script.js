@@ -33,12 +33,17 @@ function renderLinks(items) {
 /**
  * Sort newest first:
  *  - year (desc)
+ *  - optional order within a year (desc)
  *  - month (desc), month is 1–12
  */
 function sortByDateDesc(a, b) {
   const ay = Number(a.year ?? 0);
   const by = Number(b.year ?? 0);
   if (by !== ay) return by - ay;
+
+  const ao = Number(a.order ?? 0);
+  const bo = Number(b.order ?? 0);
+  if (bo !== ao) return bo - ao;
 
   const am = Number(a.month ?? 0);
   const bm = Number(b.month ?? 0);
