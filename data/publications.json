@@ -1,0 +1,84 @@
+{
+  "publications": [
+    {
+      "title": "A Hybrid Processing-in-Memory Architecture for Long Sequence LLM Inference with KV Cache Filtering",
+      "authors": ["Soojin Hwang", "Sanghyeon Lee", "Juhyun Lee", "Jaehyuk Huh"],
+      "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+      "published": true,
+      "year": 2026,
+      "month": 1,
+      "award": null,
+      "links": {"paper_label": true}
+    },
+    {
+      "title": "An Operand Divergence-Aware All-Bank PIM Architecture for Sparse Attention",
+      "authors": ["Soojin Hwang", "Sanghyeon Lee", "Juhyun Lee", "Jaehyuk Huh"],
+      "venue": "IEEE Computer Architecture Letters (CAL)",
+      "published": true,
+      "year": 2026,
+      "month": 1,
+      "award": null,
+      "links": {"paper": "https://doi.org/10.1109/LCA.2026.3684216"}
+    },
+    {
+      "title": "Throughput-Oriented LLM Inference via KV-Activation Hybrid Caching with a Single GPU",
+      "authors": ["Sanghyeon Lee", "Hongbeen Kim", "Soojin Hwang", "Guseul Heo", "Minwoo Noh", "Jaehyuk Huh"],
+      "venue": "43rd IEEE International Conference on Computer Design (ICCD)",
+      "published": true,
+      "year": 2025,
+      "month": 11,
+      "award": null,
+      "links": {"paper_pdf": "assets/paper/lee_iccd2025_capture.pdf"}
+    },
+    {
+      "title": "Improving Multi-tenant NPU Efficiency via Decoupled Tiling and Adaptive Memory Allocation",
+      "authors": ["Sanghyeon Lee", "Jaehyuk Huh"],
+      "venue": "International Conference on ICT Convergence (ICTC)",
+      "published": true,
+      "year": 2025,
+      "month": 1,
+      "award": null,
+      "links": {"paper_pdf": "assets/paper/lee_ictc2025_npu.pdf"}
+    },
+    {
+      "title": "Supporting Trusted Virtual Machines with Hardware-based Secure Remote Memory",
+      "authors": ["Taekyung Heo", "Seunghyo Kang", "Sanghyeon Lee", "Soojin Hwang", "Joongun Park", "Jaehyuk Huh"],
+      "venue": "International Symposium on Memory Management (ISMM)",
+      "published": true,
+      "year": 2024,
+      "month": 6,
+      "award": null,
+      "links": {"paper_pdf": "assets/paper/heo_ismm2024_tdmem.pdf"}
+    },
+    {
+      "title": "NeuPIMs: NPU-PIM Heterogeneous Acceleration for Batched LLM Inferencing",
+      "authors": ["Guseul Heo", "Sangyeop Lee", "Jaehong Cho", "Hyunmin Choi", "Sanghyeon Lee", "Hyungkyu Ham", "Gwangsun Kim", "Divya Mahajan", "Jongse Park"],
+      "venue": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+      "published": true,
+      "year": 2024,
+      "month": 4,
+      "award": null,
+      "links": {"paper_pdf": "assets/paper/neupims_paper.pdf"}
+    },
+    {
+      "title": "Hardware Hardened Sandbox Enclaves for Trusted Serverless Computing",
+      "authors": ["Joongun Park", "Seunghyo Kang", "Sanghyeon Lee", "Taehoon Kim", "Jongse Park", "Youngjin Kwon", "Jaehyuk Huh"],
+      "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+      "published": true,
+      "year": 2024,
+      "month": 1,
+      "award": null,
+      "links": {"paper": "https://doi.org/10.1145/3632954"}
+    },
+    {
+      "title": "Improving Data Reuse in NPU On-chip Memory with Interleaved Gradient Order for DNN Training",
+      "authors": ["Jungwoo Kim", "Seonjin Na", "Sanghyeon Lee", "Sunho Lee", "Jaehyuk Huh"],
+      "venue": "56th IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+      "published": true,
+      "year": 2023,
+      "month": 10,
+      "award": null,
+      "links": {"paper_pdf": "assets/paper/kim_micro23_interleaved.pdf"}
+    }
+  ]
+}
