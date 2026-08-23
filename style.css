@@ -16,7 +16,7 @@
   --accent: #1055C9;
   --award: var(--accent);
 
-  --body-size: 17px;
+  --body-size: 18px;
   --heading-font: 'Inter', system-ui, sans-serif;
   --body-font: 'Inter', system-ui, sans-serif;
 }
@@ -72,14 +72,14 @@ a:hover { text-decoration: underline; }
 .name {
   margin-top: 12px;
   font-family: var(--heading-font);
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 700;
 }
 
 .affil {
   margin-top: 6px;
   color: var(--muted);
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .sidebar-links {
@@ -133,14 +133,14 @@ h2, h3 {
 }
 
 .section h2 {
-  font-size: 19px;
+  font-size: 20px;
   margin-bottom: 10px;
   padding-bottom: 6px;
   border-bottom: 1px solid var(--border);
 }
 
 h3 {
-  font-size: 17px;
+  font-size: 18px;
   margin-bottom: 6px;
 }
 
@@ -164,7 +164,7 @@ h3 {
   flex-shrink: 0;
   margin-top: 2px;
   color: #333;
-  font-size: 19px;
+  font-size: 20px;
 }
 
 .edu-pursuing {
@@ -216,7 +216,7 @@ h3 {
 }
 
 .pub-meta {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .pub-venue {
