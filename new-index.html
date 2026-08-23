@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sanghyeon Lee</title>
+  <meta name="description" content="Academic homepage" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="new-style.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+</head>
+
+<body>
+  <div class="container two-col">
+    <aside class="sidebar">
+      <img class="avatar" src="assets/img/profile.jpg" alt="Profile photo" />
+
+      <div class="name">Sanghyeon Lee</div>
+      <div class="affil">
+        Postdoctoral Researcher<br />
+        <a href="https://www.kaist.ac.kr/">KAIST</a> · <a href="https://casyslab.kaist.ac.kr/">CASYS</a>
+      </div>
+
+      <div class="sidebar-links">
+        <a class="sidebar-link" href="mailto:leesh6796@casys.kaist.ac.kr">
+          <i class="fa-regular fa-envelope"></i><span>leesh6796@casys.kaist.ac.kr</span>
+        </a>
+        <a class="sidebar-link" href="assets/cv/cv.pdf">
+          <i class="fa-regular fa-file-lines"></i><span>CV (PDF)</span>
+        </a>
+        <a class="sidebar-link" href="https://www.linkedin.com/in/sanghyeon-lee-9a23a245/">
+          <i class="fa-brands fa-linkedin"></i><span>LinkedIn</span>
+        </a>
+        <a class="sidebar-link" href="https://scholar.google.com/citations?hl=ko&amp;user=hs2Y4RYAAAAJ">
+          <i class="fa-solid fa-graduation-cap"></i><span>Google Scholar</span>
+        </a>
+        <a class="sidebar-link" href="https://github.com/leesh6796">
+          <i class="fa-brands fa-github"></i><span>GitHub</span>
+        </a>
+      </div>
+    </aside>
+
+    <main class="content">
+      <section id="about" class="section">
+        <h2>About</h2>
+        <p class="body">
+          I am a Postdoctoral Researcher at <a href="https://www.kaist.ac.kr/">KAIST</a>,
+          working on efficient systems and architectures for generative AI inference.
+        </p>
+
+        <div class="split">
+          <div>
+            <h3>Research Focus</h3>
+            <div class="research-focus">
+              <article class="focus-item">
+                <span class="focus-number">01</span>
+                <div><strong>Multimodal LLM Serving</strong><p>Developing GPU-efficient serving systems for mixed text, image, video, and audio requests that maximize throughput while meeting latency targets.</p></div>
+              </article>
+              <article class="focus-item">
+                <span class="focus-number">02</span>
+                <div><strong>Hierarchical KV Cache Management</strong><p>Mitigating GPU stalls caused by KV-cache offloading by overlapping communication with computation across the memory hierarchy.</p></div>
+              </article>
+              <article class="focus-item">
+                <span class="focus-number">03</span>
+                <div><strong>Processing-in-Memory for LLM Serving</strong><p>Addressing system challenges in PIM-based LLM serving, including sparse-attention control divergence and interference between NPUs and PIM.</p></div>
+              </article>
+            </div>
+          </div>
+
+          <div>
+            <h3>Education</h3>
+            <div class="edu-item">
+              <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <div class="edu-content">
+                <div class="edu-degree">Ph.D. in Computer Science, KAIST</div>
+                <div class="edu-meta">Aug. 2026 <span aria-hidden="true">&middot;</span> <em>Advisor:</em> Prof. <a href="https://jaehyuk-huh.github.io/" target="_blank" rel="noopener noreferrer">Jaehyuk Huh</a></div>
+                <div class="dissertation">Dissertation: SLO-aware Inference Serving Systems for Multi-Modal Generative-AI Workloads</div>
+              </div>
+            </div>
+            <div class="edu-item">
+              <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <div class="edu-content">
+                <div class="edu-degree">M.S. in Computer Science, KAIST</div>
+                <div class="edu-meta">Feb. 2022 <span aria-hidden="true">&middot;</span> <em>Advisor:</em> Prof. <a href="https://jaehyuk-huh.github.io/" target="_blank" rel="noopener noreferrer">Jaehyuk Huh</a></div>
+              </div>
+            </div>
+            <div class="edu-item">
+              <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <div class="edu-content">
+                <div class="edu-degree">B.S. in Computer Science, KAIST</div>
+                <div class="edu-meta">Feb. 2020</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="publications" class="section">
+        <h2>Publications</h2>
+        <div id="pub-list" class="pub-list"><div class="muted body">Loading publications...</div></div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <div class="body">
+          <div><strong>Email</strong>: <a href="mailto:leesh6796@casys.kaist.ac.kr">leesh6796@casys.kaist.ac.kr</a></div>
+          <div><strong>Location</strong>: KAIST, Daejeon, South Korea</div>
+        </div>
+      </section>
+
+      <footer class="footer body"><div>© Sanghyeon Lee</div></footer>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
